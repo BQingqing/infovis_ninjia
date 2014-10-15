@@ -1,0 +1,54 @@
+# ignore .htaccess
+.htaccess
+
+# igmore all IIS files
+web.config
+
+# ignore all config.core.php
+config.core.php
+
+# ignore common root paths for docs and assets
+/assets/images/*
+/assets/docs/*
+
+# igmore IDE project files and folders
+.idea/
+.buildpath
+.project/
+.settings/
+nbproject/
+*.swp
+*.vimrc
+
+# igmore PHP files beginning with test
+test*.php
+
+# ignore HTML files beginning with test
+test*.html
+
+#ignore JSON files beginning with test
+test*.JSON
+
+test/
+
+# igmore mac files
+.DS_Store
+
+# igmore setup config files
+setup/config.xml
+setup/config.new.xml
+setup/config.upgrade.xml
+setup/config.upgrade-advanced.xml
+
+robots.txt
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*.orig
+
+actions.log
+dist
+node_modules
+scripts
+
